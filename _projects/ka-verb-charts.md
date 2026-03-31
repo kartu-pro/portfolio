@@ -9,7 +9,7 @@ tech: [Vue.js, Google Apps Script, CSS Grid, NLP]
 # Interactive Verb Morphological Dashboard
 
 ## 📌 Project Overview
-While computational models can segment Georgian word forms (see [this related project]({{site.baseurl}}/ka-verb-splitter)), human researchers and learners need a way to visualize those segments to identify patterns. This project is a **custom-built web dashboard** designed to take complex morphological data and present it in a highly structured, comparative format.
+While computational models can segment Georgian word forms (see [this related project]({{site.baseurl}}/projects/ka-verb-splitter)), human researchers and learners need a way to visualize those segments to identify patterns. This project is a **custom-built web dashboard** designed to take complex morphological data and present it in a highly structured, comparative format.
 
 ## ⚙️ Core Features & Linguistic UX
 The interface is engineered specifically for the unique challenges of Kartvelian morphology:
@@ -29,6 +29,6 @@ The interface is engineered specifically for the unique challenges of Kartvelian
 * **Typography:** Optimized for the **Mkhedruli** script using system fonts for maximum legibility.
 
 ## 🔗 The Data Engine
-The segmentation data visualized here is powered by a **[CRF-based machine learning model]({{ site.baseurl }}/ka-verb-splitter].
+The segmentation data visualized here is powered by a **[CRF-based machine learning model]({{ site.baseurl }}/projects/ka-verb-splitter)**.
 
 [← Back to Projects]({{ site.baseurl }}/)
