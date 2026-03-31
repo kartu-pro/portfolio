@@ -4,7 +4,7 @@ title: Home
 ---
 
 # გამარჯობა, ჯაში ვარ 👋
-### [{{ site.description }} ]
+### [ {{ site.description }} ]
 
 {{ site.bio }}
 
