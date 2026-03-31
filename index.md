@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-# Hello, I'm [Your Name] 👋
-### [Your Role / Specialization, e.g., Full-Stack Developer & UI Enthusiast]
+# გამარჯობა, ჯაში ვარ 👋
+### [{{ site.description}} ]
 
-I build scalable applications and focus on creating intuitive user experiences. Currently based in [Your Location].
+{{ site.bio }}
 
 ---
 
