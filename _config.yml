@@ -1,0 +1,10 @@
+title: Josh's Portfolio
+description: Full-stack developer and creator.
+theme: minima 
+baseurl: "" # Leave blank if using yourname.github.io
+url: "" 
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
