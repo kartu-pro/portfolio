@@ -1,8 +1,8 @@
 title: Josh's Portfolio
 description: Full-stack developer and creator.
 theme: minima 
-baseurl: "" # Leave blank if using yourname.github.io
-url: "" 
+baseurl: "/portfolio"
+url: "https://kartu-pro.github.io"
 
 collections:
   projects:
