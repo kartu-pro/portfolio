@@ -14,8 +14,8 @@ title: Home
 
 {% assign sorted_projects = site.projects | sort: "order" %}
 {% for project in sorted_projects %}
-### [{{ project.title }}]({{ site.baseurl }}{{ project.url }})
-{{ project.description }}
+**[{{ project.title }}]({{ site.baseurl }}{{ project.url }})** {{ project.description }}
+
 {% endfor %}
 
 ---
