@@ -12,7 +12,8 @@ title: Home
 
 ## Georgian Related Projects
 
-{% for project in site.projects %}
+{% assign sorted_projects = site.projects | sort: "order" %}
+{% for project in sorted_projects %}
 ### [{{ project.title }}]({{ site.baseurl }}{{ project.url }})
 {{ project.description }}
 {% endfor %}
