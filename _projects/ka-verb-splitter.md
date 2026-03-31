@@ -26,14 +26,13 @@ The model treats segmentation as a sequence labeling problem. To handle the uniq
 * **S (Single):** Represents a standard morpheme boundary (split with `-`).
 * **N (Null):** Handles the "empty slot" phenomenon (split with `--`), crucial for maintaining the structural integrity of the 5-slot system.
 
-
-
 ## 📈 Current Performance
 * **Dataset Size:** 13,674 verb forms.
 * **Accuracy:** ~98% (Word-level).
 * **Robustness:** Handles PFSF (Pre-radical/Post-radical) changes and root variations within specific screeves.
 
 ## 🚀 Next Steps
+* **Visualize Split Forms:** See related project [here](({{ site.baseurl }}/ka-verb-charts/).
 * **Automated Database Splitting:** Using `predict.py` to run batch processing on massive verb form databases.
 * **Heuristic Flagging:** Implementing a review system for "irregular" changes (e.g., when a root shifts unexpectedly within a screeve).
 * **Human-in-the-loop:** A manual update interface for linguists to review flagged forms.

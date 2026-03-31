@@ -2,7 +2,7 @@
 layout: project
 title: "Automated Lemma & Morph-Tagging Pipeline"
 description: "An automated ETL pipeline using Google Apps Script and LLMs to lemmatize and tag high-frequency word forms."
-order: 2
+order: 3
 date: 2026-03-19
 tech: [Google Apps Script, LLM API, JSON, SQL/Tables, Python]
 ---
