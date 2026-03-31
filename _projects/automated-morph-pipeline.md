@@ -5,6 +5,7 @@ description: "An automated ETL pipeline using Google Apps Script and LLMs to lem
 order: 3
 date: 2026-03-19
 tech: [Google Apps Script, LLM API, JSON, SQL/Tables, Python]
+category: data
 ---
 
 ## 📌 Overview

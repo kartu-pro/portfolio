@@ -4,6 +4,7 @@ title: "Spoken Georgian Frequency Analysis"
 description: "A data mining project that extracts and analyzes YouTube transcripts to build a frequency list based on natural spoken Georgian."
 order: 7
 tech: [Python, YouTube Transcript API, Filmot, Data Analysis]
+category: data
 ---
 
 ## 📌 Project Overview

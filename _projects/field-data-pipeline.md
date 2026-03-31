@@ -4,6 +4,7 @@ title: "Field-to-Flashcard: Automated Data Pipeline"
 description: "A custom annotation tool and automation suite that converts raw field recordings into structured audio-visual learning assets."
 order: 5
 tech: [HTML5 Canvas, Python, FFmpeg, ImageMagick, Shell]
+category: data
 ---
 
 ## 📌 Project Overview

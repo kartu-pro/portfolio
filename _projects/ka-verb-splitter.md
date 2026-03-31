@@ -5,6 +5,7 @@ description: "A CRF-based NLP tool for morphological segmentation of complex Geo
 order: 1
 date: 2026-03-17
 tech: [Python, Scikit-learn, CRFsuite, NLP]
+category: logic
 ---
 
 ## 📌 Overview

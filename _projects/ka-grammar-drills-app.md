@@ -4,6 +4,8 @@ title: "GeoDrills: Georgian Grammar Trainer"
 description: "A modular morphological training app for Georgian, featuring multi-modal drilling from multiple-choice to active production."
 order: 4
 tech: [Vue.js, JSON, CSS3 Animations, GitHub Pages]
+category: apps
+link_demo: "https://kartu-pro.github.io/GeoDrills-mvp/App.html?drill=c3225131-0470-5a69-bcca-ab81947f0d04"
 ---
 
 
@@ -29,6 +31,6 @@ The app is built on a "drill-down" hierarchy, allowing users to isolate specific
 The app utilizes a Google Sheets/Apps Script to serve structured JSON drill sets, which a Vue.js frontend consumes and displays, making it easy to scale the curriculum without modifying the core application logic.
 
 ## 🚀 Live Demo
-**[🌐 Try the GeoDrills MVP](https://kartu-pro.github.io/GeoDrills-mvp/App.html?drill=c3225131-0470-5a69-bcca-ab81947f0d04)** *(Note: This is an MVP; certain drill modules are currently in development.)*
+**[🌐 Try the GeoDrills MVP]({{ page.link_demo }})** *(Note: This is an MVP; certain drill modules are currently in development.)*
 
 [← Back to Projects]({{ site.baseurl }}/)

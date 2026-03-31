@@ -4,6 +4,7 @@ title: "Python Morphology Generator"
 description: "A programmatic engine for generating exhaustive Georgian word forms from minimal linguistic inputs."
 order: 6
 tech: [Python, OOP, Morphology, NLP]
+category: logic
 ---
 
 ## 📌 Project Overview
