@@ -22,4 +22,4 @@ title: Home
 ## Skills & Tools
 * **Languages:** Python, JavaScript (ES6+), HTML, CSS, GoLang, SQL
 * **Frameworks:** Pandas, Scikit-learn, NLTK, Vue, Django, Flask, FastApi, Google Apps Script, Tailwind
-* **Tools:** Vim, Git, Linux CLI
+* **Tools:** Vim, Git, bash
