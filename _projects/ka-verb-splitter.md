@@ -32,7 +32,7 @@ The model treats segmentation as a sequence labeling problem. To handle the uniq
 * **Robustness:** Handles PFSF (Pre-radical/Post-radical) changes and root variations within specific screeves.
 
 ## 🚀 Next Steps
-* **Visualize Split Forms:** See related project [here](({{ site.baseurl }}/ka-verb-charts/).
+* **Visualize Split Forms:** See related project [here]({{site.baseurl}}/projects/ka-verb-charts).
 * **Automated Database Splitting:** Using `predict.py` to run batch processing on massive verb form databases.
 * **Heuristic Flagging:** Implementing a review system for "irregular" changes (e.g., when a root shifts unexpectedly within a screeve).
 * **Human-in-the-loop:** A manual update interface for linguists to review flagged forms.
