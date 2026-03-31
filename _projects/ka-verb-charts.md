@@ -29,6 +29,6 @@ The interface is engineered specifically for the unique challenges of Kartvelian
 * **Typography:** Optimized for the **Mkhedruli** script using system fonts for maximum legibility.
 
 ## 🔗 The Data Engine
-The segmentation data visualized here is powered by a **[CRF-based machine learning model]({{ site.baseurl }}/ka-verb-splitter]. By linking the mathematical accuracy of the CRF with this visual interface, the tool moves beyond simple prediction into true linguistic analysis.
+The segmentation data visualized here is powered by a **[CRF-based machine learning model]({{ site.baseurl }}/ka-verb-splitter].
 
 [← Back to Projects]({{ site.baseurl }}/)

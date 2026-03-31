@@ -32,8 +32,8 @@ The system functions as a continuous ETL (Extract, Transform, Load) pipeline:
 * **Storage:** Google Sheets / Relational Tables.
 
 ## 🧩 Key Challenges
-**Challenge:** Ensuring the LLM doesn't "hallucinate" linguistic tags or return malformed strings.
-**Solution:** Implemented strict JSON schema validation and a retry logic within the Apps Script to ensure every database entry maintains relational integrity.
+* **Challenge:** Ensuring the LLM doesn't "hallucinate" linguistic tags or return malformed strings.
+* **Solution:** Implemented strict JSON schema validation and a retry logic within the Apps Script to ensure every database entry maintains relational integrity.
 
 ## 📈 Results
 * **Efficiency:** Automated what would typically take a human linguist months of manual entry.
