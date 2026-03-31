@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Interactive Verb Morphological Dashboard"
 description: "A specialized Vue.js interface for comparative linguistic analysis of Georgian verb paradigms."
 order: 2

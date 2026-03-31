@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Georgian Verb Splitter"
 description: "A CRF-based NLP tool for morphological segmentation of complex Georgian verb structures."
 order: 1

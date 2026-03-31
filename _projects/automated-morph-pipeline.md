@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Automated Lemma & Morph-Tagging Pipeline"
 description: "An automated ETL pipeline using Google Apps Script and LLMs to lemmatize and tag high-frequency word forms."
 order: 3
