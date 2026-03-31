@@ -7,8 +7,6 @@ date: 2026-03-19
 tech: [Google Apps Script, LLM API, JSON, SQL/Tables, Python]
 ---
 
-# Automated Lemma & Morph-Tagging Pipeline
-
 ## 📌 Overview
 Manually tagging a corpus for lemmatization and grammatical features is a massive bottleneck in linguistic research. This project automates that process by targeting the most "impactful" words in a corpus and using Large Language Models (LLMs) to perform morphological analysis.
 

@@ -7,8 +7,6 @@ date: 2026-03-17
 tech: [Python, Scikit-learn, CRFsuite, NLP]
 ---
 
-# Georgian Verb Splitter (CRF-Based)
-
 ## 📌 Overview
 This project addresses the high-complexity task of morphological segmentation for Georgian verbs. This tool automates the splitting of these forms (ie გავაკეთებდი -> გა-ვ-აკეთ-ებ-დი).
 
