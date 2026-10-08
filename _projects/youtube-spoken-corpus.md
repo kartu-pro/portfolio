@@ -2,30 +2,34 @@
 layout: page
 title: "Spoken Georgian Frequency Analysis"
 description: "A data mining project that extracts and analyzes YouTube transcripts to build a frequency list based on natural spoken Georgian."
-order: 7
+order: 8
 tech: [Python, YouTube Transcript API, Filmot, Data Analysis]
 category: data
 ---
 
 ## 📌 Project Overview
-Most frequency lists for the Georgian language are derived from formal sources like news articles or academic texts. This project aims to bridge the gap between "classroom Georgian" and "street Georgian" by creating a frequency corpus based on **601 YouTube videos** across various genres.
+Most frequency lists for the Georgian language are derived from formal sources like news articles or academic texts. This project bridges the gap between formal written Georgian and everyday spoken speech by extracting and analyzing transcript data from **600 YouTube videos** to map real-world lexical usage.
 
-## ⚙️ The Data Pipeline
-The project utilizes a multi-stage extraction and cleaning process:
-1.  **Discovery & Filtering:** Used **Filmot** to query the YouTube database specifically for Georgian-language content, filtering for metadata that indicates authentic, high-quality speech.
-2.  **Transcript Extraction:** Leveraged the `youtube-transcript-api` in Python to programmatically fetch the captions/transcripts for the identified 601-video dataset.
-3.  **Frequency Processing:** A custom Python script cleans the raw text (removing timestamps, formatting, and non-alphabetic characters) and calculates the frequency distribution of tokens.
+## 📊 Dataset & Corpus Statistics
+* **Videos Scraped:** 600
+* **Total Tokens (Words):** 1,841,941
+* **Unique Word Forms:** 208,053
+* **Top 10 Words:** Account for **15.6%** of all spoken occurrences (286,748 tokens).
+* **Top 1,000 Words:** Provide **61.0%** text coverage (1,122,704 tokens).
+* **80% Coverage Target:** Reached at **10,011 unique words** (~4.8% of total unique forms).
 
-## 📊 Impact & Insights
-The resulting dataset provides a more accurate representation of the **spoken lexicon**—including common filler words, conversational particles, and informal verbal forms—which are often missing from traditional dictionaries.
+## ⚙️ Pipeline & Architecture
+1. **Discovery & Ingestion:** Identified videos via **Filmot** and fetched raw transcript JSON files via `youtube_transcripts.py`.
+2. **Token Normalization:** `counts.py` strips non-alphabetic noise, cleans formatting, and generates the final token frequency database (`results.tsv`).
+3. **Analytics & Visualization:** `plot.py` and `tables.py` produce linear/logarithmic cumulative coverage graphs and target percentage tables.
 
-* **Dataset Size:** 601 videos.
-* **Primary Output:** A prioritized "spoken" frequency list.
-* **Linguistic Value:** Identifies the "High-Yield" vocabulary truly necessary for listening comprehension in non-formal environments.
+## 🛠 File Structure & Outputs
+* `transcripts/`: Raw JSON transcript files keyed by YouTube Video ID.
+* `videos.csv`: Metadata index of included videos.
+* `results.tsv`: Tab-separated frequency list (`word\tcount`).
+* `youtube_transcripts.py`, `counts.py`, `plot.py`, `tables.py`: Core ETL and analysis scripts.
 
-## 🛠 Technical Stack
-* **Python:** Core processing and API interaction.
-* **Filmot:** Advanced metadata filtering for video discovery.
-* **YouTube Transcript API:** Automated data retrieval.
+## 🚀 Future Roadmap
+* **Lemmatization:** Map inflected word forms back to their dictionary headwords to convert the surface-form frequency corpus into a lemma-based list.
 
 [← Back to Projects]({{ site.baseurl }}/)

@@ -2,7 +2,7 @@
 layout: page
 title: "GeoDrills: Georgian Grammar Trainer"
 description: "A modular morphological training app for Georgian, featuring multi-modal drilling from multiple-choice to active production."
-order: 4
+order: 5
 tech: [Vue.js, JSON, CSS3 Animations, GitHub Pages]
 category: apps
 link_demo: "https://kartu-pro.github.io/GeoDrills-mvp/App.html?drill=c3225131-0470-5a69-bcca-ab81947f0d04"
